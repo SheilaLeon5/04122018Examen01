@@ -18,7 +18,7 @@ public class Examen {
 		this.aprobado = true;
 		
 	}
-	public Examen(int numExam, String asignatura, char sexoAlumn, boolean aprobado, int[][] notasAlumnos,String[] alumnos, String[] modulos) {
+	public Examen(int numExam, String asignatura, char sexoAlumn, boolean aprobado) {
 		super();
 		this.numExam = numExam;
 		this.asignatura = asignatura;
