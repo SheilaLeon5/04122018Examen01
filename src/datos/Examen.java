@@ -60,6 +60,31 @@ public class Examen {
 	private int[][] notasAlumnos = { { 5, 6, 3, 9, 8 }, { 7, 2, 8, 4, 5 }, { 8, 5, 6, 2, 4 } };
 	private String[] alumnos = { "Pepe", "Manuel", "Carlos" };
 	private String[] modulos = { "PRO", "SSF", "LND", "LNT", "FOL" };
+
+
+
+	public int[][] getNotasAlumnos() {
+		return notasAlumnos;
+	}
+	public void setNotasAlumnos(int[][] notasAlumnos) {
+		this.notasAlumnos = notasAlumnos;
+	}
+	public String[] getAlumnos() {
+		return alumnos;
+	}
+	public void setAlumnos(String[] alumnos) {
+		this.alumnos = alumnos;
+	}
+	public String[] getModulos() {
+		return modulos;
+	}
+	public void setModulos(String[] modulos) {
+		this.modulos = modulos;
+	}
+	
+	
+	
+	
 	
 	
 	

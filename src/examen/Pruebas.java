@@ -10,8 +10,7 @@ public class Pruebas {
 	
 	//Objetivo 2.
 	private Examen[] objetos = new Examen[5];
-	
-	
+
 
 	//Objetivo 4.  
 		//Este método devuelve n objetos del array ya creado por tanto si el array principal tiene 4 objetos no podremos mostrar 5
@@ -48,7 +47,14 @@ public class Pruebas {
 		
 	}
 	
-	
+	//Objetivo 5.
+	private Examen[] alumnos;
+	public void notaMediasAlumnos() {
+		for (int i = 0; i < alumnos.length; i++) {
+
+			System.out.println(alumnos[i].getAlumnos() + " -->  nota media : "+ alumnos[i].getNotasAlumnos());
+		}
+	}
 
 
 	public static void main(String[] args) {
@@ -70,7 +76,12 @@ public class Pruebas {
 		
 		//Objetivo 4.
 		ejercicios.creaObjetosExamen(4);
-				
+		
+		//Objetivo 5.
+		Examen [] alumnos = {};		
+		
+		
+	
 		
 	}
 	
